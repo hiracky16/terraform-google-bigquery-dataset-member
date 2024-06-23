@@ -9,6 +9,7 @@ The `terraform-google-bigquery-dataset-member` module provides a comprehensive s
 - Assign IAM roles to multiple BigQuery datasets.
 - Support for multiple roles and members per dataset.
 - Easy integration with existing Terraform configurations.
+- Members specified will be assigned `roles/bigquery.user` by default.
 
 ## Usage
 
