@@ -17,10 +17,12 @@ module "bigquery_members" {
     },
     {
       id : "datasetB",
-      members : [{
-        member : "serviceAccount:sa-test@projectA.iam.gserviceaccount.com",
-        role : "roles/bigquery.dataViewer"
-      }]
+      members : [
+        {
+          member : "serviceAccount:sa-test@projectA.iam.gserviceaccount.com",
+          role : "roles/bigquery.dataViewer"
+        }
+      ]
     }
   ]
 }
