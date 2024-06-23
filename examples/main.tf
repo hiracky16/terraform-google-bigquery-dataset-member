@@ -1,5 +1,5 @@
 module "bigquery_members" {
-  source  = "../"
+  source  = "path/to/terraform-google-bigquery-dataset-member"
   project = "projectA"
   datasets = [
     {
